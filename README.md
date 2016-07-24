@@ -2,10 +2,10 @@
 Archivos de infraestructura
 #LANDING
 ## Creo el container
-docker build --no-cache -t pharmared/home ./
+docker build --no-cache -t pharmared/landing ./
 
 ##Corro la imagen y le pongo un nombre
-docker run -d --name pharmared_landing pharmared/nginx
+docker run -d --name pharmared_landing pharmared/landing
 
 # NGINX
 ## Creo el contanedor de nginx
