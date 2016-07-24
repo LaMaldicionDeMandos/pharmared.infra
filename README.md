@@ -6,4 +6,4 @@ Archivos de infraestructura
 docker build --no-cache -t pharmared/nginx ./
 
 ## Corro la imagen
-docker run -p 80:80 -p 442:442 -d pharmared/nginx
+docker run -p 80:80 -p 443:443 -d pharmared/nginx
