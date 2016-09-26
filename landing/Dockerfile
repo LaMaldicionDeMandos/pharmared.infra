@@ -10,4 +10,4 @@ RUN cp -R /app/* /home/app
 WORKDIR /home/app
 RUN npm install
 EXPOSE 5000
-CMD [ "npm", "start" ]
+CMD [ "npm", "run" ,"start_staging" ]
