@@ -8,6 +8,6 @@ RUN git checkout staging
 RUN mkdir -p /home/app
 RUN cp -R /app/* /home/app
 WORKDIR /home/app
-RUN npm install
+RUN npm install --production
 EXPOSE 5000
 CMD [ "npm", "run" ,"start_staging" ]
